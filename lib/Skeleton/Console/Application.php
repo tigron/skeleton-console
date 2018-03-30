@@ -50,7 +50,7 @@ class Application extends \Symfony\Component\Console\Application {
 
 				$file = str_replace('.php', '', $file);
 
-				$classname = '\Skeleton\Console\Command\\' . ucfirst(str_replace('skeleton-', '', $skeleton->name)) . '_' . ucfirst($file);
+				$classname = '\Skeleton\Console\Command\\' . ucfirst(str_replace('-', '_', str_replace('skeleton-', '', $skeleton->name))) . '_' . ucfirst($file);
 				$this->add(new $classname);
 			}
 		}
