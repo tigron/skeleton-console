@@ -3,7 +3,7 @@
     "description": "A console application to interact with Skeleton packages",
     "type": "library",
     "require": {
-		"symfony/console": "3.3.16"
+		"symfony/console": "^5.*"
     },
     "license": "MIT",
     "authors": [
