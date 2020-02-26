@@ -30,6 +30,7 @@ class Application extends \Symfony\Component\Console\Application {
 		 * Search for other Skeleton packages installed
 		 */
 		$skeletons = \Skeleton\Core\Skeleton::get_all();
+		$this->setCatchExceptions(false);
 
 		/**
 		 * Check in every Skeleton package for commands
