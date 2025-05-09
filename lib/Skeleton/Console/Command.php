@@ -21,8 +21,8 @@ class Command extends \Symfony\Component\Console\Command\Command {
 	 *
 	 * @access protected
 	 */
-    protected function configure() {
-    }
+	protected function configure() {
+	}
 
 	/**
 	 * Execute method
@@ -31,6 +31,6 @@ class Command extends \Symfony\Component\Console\Command\Command {
 	 * @param InputInterface $input
 	 * @param OutputInterface $ouput
 	 */
-    protected function execute(InputInterface $input, OutputInterface $output) {
-    }
+	protected function execute(InputInterface $input, OutputInterface $output): int {
+	}
 }
