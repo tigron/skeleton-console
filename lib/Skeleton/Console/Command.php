@@ -32,5 +32,6 @@ class Command extends \Symfony\Component\Console\Command\Command {
 	 * @param OutputInterface $ouput
 	 */
 	protected function execute(InputInterface $input, OutputInterface $output): int {
+		return 0;
 	}
 }
